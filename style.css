@@ -1,0 +1,56 @@
+.spinner-border {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+.card {
+  background-color: turquoise;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card > h5 {
+  padding: 10px;
+  text-align: center;
+}
+
+.cardContainer {
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.searchContainer {
+  display: flex;
+}
+
+div > label > input.input {
+  padding: 5.5px;
+}
+
+div > button.inputBtn {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 0px;
+}
+
+.container {
+  margin-top: 50px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  visibility: hidden;
+}
+
+.container > div > img {
+  width: 100%;
+  margin-top: 40px;
+}
